@@ -1,0 +1,10 @@
+node_modules/
+dist/
+public/python/
+.openai/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.tar.gz

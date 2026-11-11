@@ -1,0 +1,21 @@
+{
+  "name": "basis-vue",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "setup:python": "node scripts/setup-python.mjs",
+    "postinstall": "npm run setup:python",
+    "predev": "npm run setup:python",
+    "prebuild": "npm run setup:python"
+  },
+  "dependencies": {
+    "vue": "^3.5.0",
+    "vite": "^6.1.0",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "katex": "^0.16.0",
+    "pyodide": "^0.27.7"
+  },
+  "devDependencies": {}
+}
